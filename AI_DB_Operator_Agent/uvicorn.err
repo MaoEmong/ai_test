@@ -1,0 +1,12 @@
+INFO:     Will watch for changes in these directories: ['D:\\AI_DB_Operator_Agent']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [18728] using WatchFiles
+INFO:     Started server process [24988]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+[INFO] 요청 수신: text="모든 데이터를 보고싶어" confirm=False
+[INFO] LLM 호출: text="모든 데이터를 보고싶어"
+[INFO] HTTP Request: POST https://api.openai.com/v1/responses "HTTP/1.1 200 OK"
+[INFO] LLM 계획: intent=READ where=0
+[INFO] DB 조회: rows=4
+[INFO] 응답 생성: intent=READ rows=4
