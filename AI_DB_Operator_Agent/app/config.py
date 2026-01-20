@@ -5,7 +5,7 @@
 """
 
 # OpenAI 설정
-OPENAI_API_KEY = "sk-proj-REPLACE_WITH_YOUR_KEY"
+OPENAI_API_KEY = "sk-proj-Your-Key"
 OPENAI_MODEL = "gpt-5.1"
 
 # MySQL 설정
